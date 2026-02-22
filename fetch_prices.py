@@ -10,6 +10,15 @@ OUTPUT_FILE = "historicalPrices.json"
 project_dir = ""
 
 def fetch_close_prices( ticker = TICKER,  start_date = START_DATE, end_date = END_DATE):
+  """
+  Fetches historical closing price data for the given ticker
+  between START_DATE and END_DATE from Yahoo Finance.
+
+  Returns:
+      A list of dictionaries containing:
+          date (str): date in YYYY-MM-DD format
+          close (float): closing price
+  """
   df = yf.download(ticker, start=start_date, end=end_date)
 
   df_close = df['Close']
@@ -27,6 +36,13 @@ def fetch_close_prices( ticker = TICKER,  start_date = START_DATE, end_date = EN
 
 
 def save_to_json(data):
+  """
+  Saves the fetched price data to a JSON file.
+
+  Args:
+      data: The list of price dictionaries
+      filename: Output filename to write JSON to
+  """
   with open(OUTPUT_FILE, 'w') as file:
     json.dump(data, file, indent=4)
 
