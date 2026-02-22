@@ -21,10 +21,26 @@ Fetch data:
 
     python fetch_prices.py
 
+prints:
+
+    [*********************100%***********************]  1 of 1 completed
+    Data successfully saved to historicalPrices.json
+
+Output:
+- historicalPrices.json
+
 Generate chart:
 
     python chart.py
 
+Prints:
+
+    Chart successfully saved as chart.png
+
 Output:
+<<<<<<< HEAD
 - historicalPrices.json
 - chart.png
+=======
+- chart.png
+>>>>>>> 8ddada0 (Edited README.md)
