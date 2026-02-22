@@ -38,9 +38,4 @@ Prints:
     Chart successfully saved as chart.png
 
 Output:
-<<<<<<< HEAD
-- historicalPrices.json
 - chart.png
-=======
-- chart.png
->>>>>>> 8ddada0 (Edited README.md)
