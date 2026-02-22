@@ -28,3 +28,7 @@ Generate chart:
 Output:
 - historicalPrices.json
 - chart.png
+
+    Ram Sita
+    Hanuman
+    Lakshmana
