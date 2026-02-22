@@ -28,9 +28,3 @@ Generate chart:
 Output:
 - historicalPrices.json
 - chart.png
-
-Divine:
-
-    Ram Sita
-    Hanuman
-    Lakshmana
